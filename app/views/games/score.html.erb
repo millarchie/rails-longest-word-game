@@ -1,0 +1,7 @@
+<h1>Games#score</h1>
+<p>Generated at <%= @generated_at  %></p>
+<p>Submitted at <%=@submitted_at  %></p>
+<p>Sorry <%= params[:answer]  %> is not a valid word</p>
+<p>Sorry <%= params[:answer]  %> cannot be built out of <%= @letters %></p>
+
+<%= link_to 'Play again', new_path %>
